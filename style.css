@@ -78,16 +78,30 @@ iframe {
 }
 
 /* Dark Mode */
+body.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="DigitalZone/style.css"> <!-- Assicurati che il percorso sia corretto -->
-    <title>Your Game Blog</title>
-</head>
-<body>
-    <!--https://god0654.github.io/DigitalZone/-->
-</body>
-</html>
+header.dark-mode {
+    background-color: #222;
+}
+
+nav a.dark-mode {
+    color: #fff;
+}
+
+article.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.post-meta.dark-mode {
+    color: #aaa;
+}
+
+footer.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
