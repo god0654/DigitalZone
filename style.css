@@ -1,0 +1,25 @@
+/* The rest of the CSS remains the same */
+
+main {
+    padding: 2em 0;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+.post-meta {
+    color: #888;
+}
+
+/* Responsive Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive YouTube Video */
+iframe {
+    width: 100%;
+    height: 315px; /* You can adjust the height as needed */
+}
