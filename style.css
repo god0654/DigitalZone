@@ -1,4 +1,46 @@
-/* The rest of the CSS remains the same */
+/* Reset CSS */
+html, body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Cambia colore di sfondo a tuo piacimento */
+    color: #333; /* Cambia colore del testo a tuo piacimento */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
 
 main {
     padding: 2em 0;
@@ -6,10 +48,21 @@ main {
 
 article {
     margin-bottom: 2em;
+    background-color: #fff; /* Cambia colore di sfondo a tuo piacimento */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra sottile */
 }
 
 .post-meta {
     color: #888;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
 }
 
 /* Responsive Images */
@@ -21,5 +74,7 @@ img {
 /* Responsive YouTube Video */
 iframe {
     width: 100%;
-    height: 315px; /* You can adjust the height as needed */
+    height: 315px; /* Puoi regolare l'altezza a tuo piacimento */
 }
+
+/* Dark Mode */
