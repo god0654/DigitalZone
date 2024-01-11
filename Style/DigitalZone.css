@@ -1,0 +1,177 @@
+/* Reset CSS */
+html, body, h1, h2, h3, p, ul, li, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Cambia colore di sfondo a tuo piacimento */
+    color: #333; /* Cambia colore del testo a tuo piacimento */
+    margin: 0; /* Rimuove il margine predefinito del body */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center; /* Centra il testo all'interno dell'header */
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Imposta il colore grigio scuro di sfondo */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main {
+    padding: 2em 0;
+}
+
+article {
+    margin-bottom: 2em;
+    background-color: #333; /* Imposta il colore grigio scuro di sfondo */
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border 0.3s ease-in-out;
+
+    /* Nuove regole per ridimensionare il lato destro */
+    max-width: 900px;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+article:hover {
+    background-color: #555; /* Cambia colore al passaggio del mouse a un tono di grigio più scuro */
+    color: #fff;
+    border: 2px solid #888;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Puoi regolare il raggio a tuo piacimento */
+    display: block;
+    margin: 19px auto 0; /* Per centrare l'immagine */
+    transition: transform 0.3s ease-in-out; /* Imposta la transizione per l'effetto pulsazione */
+}
+
+.post-meta {
+    color: #888;
+    text-align: center; /* Centra il testo all'interno dell'elemento */
+    margin-top: 23px; /* Puoi regolare il margine superiore a tuo piacimento */
+    font-weight: bold; /* Rendi il testo in grassetto */
+}
+
+.post-meta.dark-mode {
+    color: #aaa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Puoi regolare il raggio a tuo piacimento */
+    transition: transform 0.3s ease-in-out; /* Imposta la transizione per l'effetto pulsazione */
+}
+
+img:hover {
+    transform: scale(1.1); /* Cambia la scala a tuo piacimento per regolare l'effetto */
+    transition: transform 0.3s ease-in-out; /* Imposta la transizione per l'effetto pulsazione */   
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+/* Responsive YouTube Video */
+iframe {
+    width: 100%;
+    height: 315px; /* Puoi regolare l'altezza a tuo piacimento */
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #282c35; /* Cambia il colore di sfondo scuro */
+    color: #ddd; /* Cambia il colore del testo */
+}
+
+header.dark-mode {
+    background-color: #1f232a; /* Cambia il colore di sfondo dell'header */
+}
+
+nav a.dark-mode {
+    color: #ddd; /* Cambia il colore dei link nell'header */
+}
+
+article.dark-mode {
+    background-color: #1f232a; /* Cambia il colore di sfondo degli articoli */
+    color: #ddd; /* Cambia il colore del testo degli articoli */
+    border: 2px solid #333; /* Cambia il colore del bordo al passaggio del mouse */
+}
+
+.post-meta.dark-mode {
+    color: #aaa;
+}
+
+footer.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+.footer-copyright {
+    background-color: #333; /* Colore sfondo del footer */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Imposta un indice di profondità alto per assicurarti che sia sopra gli altri elementi */
+}
+
+iframe {
+    width: 450px; /* Imposta la larghezza desiderata del widget */
+    height: 420px; /* Imposta l'altezza desiderata del widget */
+    position: absolute;
+    top: 140px; /* Imposta la distanza dal bordo superiore */
+    right: 10px; /* Imposta la distanza dal bordo destro */
+    border: none; /* Rimuovi il bordo dell'iframe */
+}
+
+.discord-widget-container {
+    position: static;
+    top: 1px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.release-date {
+    margin: 0;
+    font-size: 0.8em;
+}
