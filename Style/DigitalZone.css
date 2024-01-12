@@ -164,7 +164,6 @@ iframe {
     border: none; /* Rimuovi il bordo dell'iframe */
 }
 
-@media (max-width: 768px) { 
 .discord-widget-container {
     position: static;
     top: 1px;
