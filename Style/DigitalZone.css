@@ -164,21 +164,12 @@ iframe {
     border: none; /* Rimuovi il bordo dell'iframe */
 }
 
+@media (max-width: 768px) { 
 .discord-widget-container {
     position: static;
     top: 1px;
     right: 10px;
     z-index: 1000;
-}
-
-@media (max-width: 768px) {
-    /* Modifica lo stile quando la larghezza dello schermo è inferiore a 768 pixel (ad esempio, dispositivi mobili) */
-    .discord-widget-container {
-        position: relative; /* Cambia la posizione a relativa per consentire il flusso del documento */
-        top: 0;
-        right: 0;
-        z-index: 1000;
-        margin-top: 20px; /* Aggiungi margine sopra il widget */
 }
 
 .release-date {
