@@ -4,18 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style/DigitalZone.css">
-    <style>
-        /* Aggiungi gli stili CSS*/ 
-    </style>
-
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SGYDZWQ2DK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-SGYDZWQ2DK');
-</script>
 
     <script>
         // Rimuovi la funzione toggleDarkMode() e chiamala direttamente al caricamento della pagina
@@ -28,16 +16,19 @@
     <header>
         <div class="container">
             <h1>DigitalZone ~ Games & News</h1>
+            
 <nav>
     <ul>
-        <li><a href="#">Contact</a></li>
+        <li><a href="https://discord.gg/F7juJ4RryJ" target="_blank">Discord</a></li>
     </ul>
 </nav>
+
         </div>
     </header>
 
     <!-- Rimuovi il bottone Dark Mode -->
     <!-- <button onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+
 
     <main class="container">
         <!-- Your game blog posts go here -->
@@ -75,6 +66,17 @@
         <a href="https://discord.gg/F7juJ4RryJ" target="_blank" rel="noopener noreferrer">          
         </a>
     </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        if (window.innerWidth <= 480) {
+            var discordWidget = document.querySelector('.discord-widget-container');
+            if (discordWidget) {
+                discordWidget.style.display = 'none';
+            }
+        }
+    });
+</script>
 
 </body>
 </html>
