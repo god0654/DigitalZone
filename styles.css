@@ -236,3 +236,24 @@ footer {
     background-color: #45a049;
     transform: scale(1.1);
 }
+
+@media screen and (max-width: 768px) {
+    .search-bar {
+        display: block;
+        position: relative; /* Modifica la posizione se necessario /
+        top: auto;
+        right: auto;
+        left: 10px;
+        z-index: -1; / Imposta un valore maggiore per garantire la visibilità /
+    }
+
+    .search-bar input {
+        padding: 5px; / Regola la dimensione del padding o altre proprietà per rendere più piccolo il campo di input /
+        font-size: 0.8em; / Riduci la dimensione del carattere per rendere più piccolo il testo di input /
+    }
+
+    .search-bar button {
+        padding: 5px 8px; / Regola la dimensione del padding o altre proprietà per rendere più piccolo il pulsante /
+        font-size: 0.8em; / Riduci la dimensione del carattere per rendere più piccolo il testo del pulsante */
+    }
+}
