@@ -244,7 +244,7 @@ footer {
         top: auto;
         right: auto;
         left: 10px;
-        z-index: -1; / Imposta un valore maggiore per garantire la visibilità /
+        z-index: 1; / Imposta un valore maggiore per garantire la visibilità /
     }
 
     .search-bar input {
