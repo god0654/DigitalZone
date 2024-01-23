@@ -240,7 +240,7 @@ footer {
 @media screen and (max-width: 768px) {
     .search-bar {
         display: block;
-        position: relative; /* Modifica la posizione se necessario */
+        position: static; /* Modifica la posizione se necessario */
         top: auto;
         right: auto;
         left: 30px;
