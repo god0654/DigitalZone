@@ -243,7 +243,7 @@ footer {
         position: relative; /* Modifica la posizione se necessario /
         top: auto;
         right: auto;
-        left: 10px;
+        left: auto;
         z-index: 1; / Imposta un valore maggiore per garantire la visibilità /
     }
 
