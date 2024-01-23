@@ -237,7 +237,7 @@ footer {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .search-bar {
         display: block;
         position: relative; /* Modifica la posizione se necessario /
