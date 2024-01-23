@@ -257,7 +257,3 @@ footer {
         font-size: 0.7em; /* Riduci la dimensione del carattere per rendere più piccolo il testo del pulsante */
     }
 }
-
-#disqus_thread {
-    margin-top: 20px;
-}
