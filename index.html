@@ -3,79 +3,486 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style/DigitalZone.css">
-
-    <script>
-        // Rimuovi la funzione toggleDarkMode() e chiamala direttamente al caricamento della pagina
-        document.addEventListener('DOMContentLoaded', function () {
-            document.body.classList.add('dark-mode');
-        });
-    </script>
-</head>   
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Blog</title>
+</head>
 <body>
     <header>
-        <div class="container">
-            <h1>DigitalZone ~ Games & News</h1>
-            
-<nav>
-    <ul>
-        <li><a href="https://discord.gg/F7juJ4RryJ" target="_blank">Discord</a></li>
-    </ul>
-</nav>
-
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://discord.gg/F7juJ4RryJ" target="_blank">Discord</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search..." id="searchInput">
+            <button type="button" onclick="search()">Search</button>
         </div>
     </header>
 
-    <!-- Rimuovi il bottone Dark Mode -->
-    <!-- <button onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+    <!-- Main Content -->
 
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+			    <div class="container">
+<div class="posts-grid">
+    <!-- First six blog posts -->
 
-    <main class="container">
-        <!-- Your game blog posts go here -->
-<article>
-    <a href="https://filecrypt.cc/Container/D21AF3AC32.html">
-        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2021210/capsule_616x353.jpg?t=1680711460" alt="Game Image">
+    <!-- Article 7 (6 Posts) -->
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/The Universim.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/352720/header.jpg?t=1705993770" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>The Universim [Portable V1.0.00.46017 & Build 13240912]</h3>
+        </div>
     </a>
-    <div class="post-details">
-        <p class="post-meta">DRAGON QUEST TREASURES-TENOKE</p>
-        <p class="release-date">Release Date: January 11, 2024</p>
-    </div>
-</article>
+</div>
 
-        <!-- Add more game posts as needed -->
-<article>
-    <a href="https://filecrypt.cc/Container/4F32B98715.html">
-        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2532430/capsule_616x353.jpg?t=1702852497" alt="Game Image">
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/MONSTER HUNTER RISE.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1446780/header.jpg?t=1705885826" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>MONSTER HUNTER RISE: SUNBREAK - Deluxe Edition [Portable V16.0.2.0 + DLC Included & Support Folder]</h3>
+        </div>
     </a>
-    <div class="post-details">
-        <p class="post-meta">SUPERNORMAL-TENOKE</p>
-        <p class="release-date">Release Date: January 10, 2024</p>
-    </div>
-</article>
-       <!-- Add more game posts as needed -->
-    </main>
+</div>
 
-    <footer class="footer-copyright">
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/Abyss School.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2473710/header.jpg?t=1705725619" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Abyss School [Portable & Build 13232172]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/SHINORUBI.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1665900/header.jpg?t=1705750561" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>SHINORUBI [Portable & Build 13222528]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/SpongeBob SquarePants The Cosmic Shake.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1282150/header.jpg?t=1696423941" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>SpongeBob SquarePants: The Cosmic Shake [Portable V1.0.6.0 + Build 12022705 + DLC & Update Included]</h3>
+        </div>
+    </a>
+</div>
+
+    <!-- Article 6 (6 Posts) -->
+
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/Company of Heroes Legacy Edition.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/4560/header.jpg?t=1573488196" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Company of Heroes: Legacy Edition [Portable V2.602]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/Stick Fight The Game.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/674940/header.jpg?t=1702991556" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Stick Fight: The Game [Portable + Build 12062019 & Online Supported]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/Trinity Fusion.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1911360/header.jpg?t=1702915094" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Trinity Fusion [Portable & Build 12964160]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/ULTRAKILL.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1229490/header.jpg?t=1704406135" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>ULTRAKILL [Portable & Build 13012815]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/Granblue Fantasy Versus Rising.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2157560/header.jpg?t=1705368967" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Granblue Fantasy Versus: Rising [Portable + Build 12948127 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/House Flipper 2.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1190970/header.jpg?t=1704804364" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>House Flipper 2 [Portable & Build 12959422]</h3>
+        </div>
+    </a>
+</div>
+
+    <!-- Article 5 (6 Posts) -->
+
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/The Jackbox Party Pack 10.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2216830/header.jpg?t=1704311105" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>The Jackbox Party Pack 10 [Portable & Build 12703970]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/Path of the Midnight Sun.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1969060/header.jpg?t=1705183774" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Path of the Midnight Sun V2.0 [Portable & Build 13141147]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/Against the Storm.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1336490/header.jpg?t=1704281211" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Against the Storm [Portable & Build 12888360]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/Far Lands.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1500940/header.jpg?t=1705732566" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Far Lands [Portable & Build 13225305]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/LEGO 2K Drive.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1451810/header.jpg?t=1702580017" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>LEGO® 2K Drive [Portable + Build 12823980 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/Ghost Trick Phantom Detective.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1967430/header.jpg?t=1702953382" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Ghost Trick: Phantom Detective [Portable & Build 11038113]</h3>
+        </div>
+    </a>
+</div>
+
+    <!-- Article 4 (6 Posts) -->
+
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/Unravel Two.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1225570/header.jpg?t=1633006815" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Unravel Two [Portable V1.0.0.0 & Build 13206271]</h3>
+        </div>
+    </a>
+</div>
+
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/The Cub.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1941410/header.jpg?t=1705664725" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>The Cub [Portable & Build 13206271]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/Palworld.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1623730/header.jpg?t=1705662211" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Palworld + Dedicated Server [Portable V0.1.2.0 & Build 13218815]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/Supernormal.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2532430/header.jpg?t=1704730003" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Supernormal [Portable & Build 13109114]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/DRAGON QUEST TREASURES.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2021210/header.jpg?t=1704967215" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>DRAGON QUEST TREASURES - No Denuvo [Portable + Build 11204329 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/War Hospital.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1553000/header.jpg?t=1705485338" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>War Hospital [Portable + Build 13138626 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+
+    <!-- Article 3 (6 Posts) -->
+
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/Backrooms Eight Levels.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2738420/header.jpg?t=1704531612" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Backrooms: Eight Levels [Portable & Build 12952083]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/DeadPoly.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1621070/header.jpg?t=1698734826" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>DeadPoly [Portable V0.0.5d & Online Supported]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/Necroslayer.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2563960/header.jpg?t=1705278972" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Necroslayer [Portable & Build 13121633]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/Nyran Survivors.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2540810/header.jpg?t=1705082297" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Nyran Survivors [Portable & Build 13164128]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/Papers Please.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/239030/header.jpg?t=1678266428" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Papers, Please [Portable & Build 10817815]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/Crystal Story Dawn of Dusk.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1746590/header.jpg?t=1705586536" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Crystal Story: Dawn of Dusk [Portable & Build 13141061]</h3>
+        </div>
+    </a>
+</div>
+
+    <!-- Article 2 (6 Posts) -->
+
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/Sid Meier’s Civilization VI.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/289070/header.jpg?t=1680898825" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Sid Meier’s Civilization® VI [Portable V1.0.12.54 & Online Supported]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/Brothers in Arms Hell's Highway.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/15390/header.jpg?t=1544535852" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Brothers in Arms: Hell's Highway™ [Portable]</h3>
+        </div>
+    </a>
+</div>
+
+           <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/Crash Dive Series.html">
+        <img src="Images/Crash Dive Series.png" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Crash Dive Series [Portable]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/Time Survivors.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2211390/header.jpg?t=1705349449" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Time Survivors [Portable & Build 13138786]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/House Builder.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1244630/header.jpg?t=1705430976" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>House Builder [Portable & Build 13176639]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/Turbo Sloths.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1443630/header.jpg?t=1705497725" style="width: 100%; height: auto;" alt="Blog Post Image"> 
+        <div class="post-content">
+            <h3>Turbo Sloths [Portable V1.7.2152 + Build 13189048 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+            
+    <!-- Article 1 (6 Posts) -->
+            <!-- Post 1 -->
+<div class="blog-post">
+    <a href="Posts/Immortal Life.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1201230/header.jpg?t=1705548243" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>Immortal Life [Portable & Build 13205302]</h3>
+        </div>
+    </a>
+</div>
+
+            <!-- Post 2 -->
+<div class="blog-post">
+    <a href="Posts/PoP Switch.html">
+        <img src="Images/PoP.png" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>Prince of Persia: The Lost Crown [V1.0.2 + All Emu Preconfigured]</h3>
+        </div>
+    </a>
+</div>
+            <!-- Post 3 -->
+<div class="blog-post">
+    <a href="Posts/CotL - Sinful.html">
+        <img src="Images/CotL - Sinful.jpg" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>Cult of the Lamb: Sinful [Portable + Build 13182193 + DLC Included]</h3>
+        </div>
+    </a>
+</div>
+            <!-- Post 4 -->
+<div class="blog-post">
+    <a href="Posts/WWZ.html">
+        <img src="Images/WWZ.jpg" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>WWZ: Aftermath - Valley of the Zeke [Portable + Build 12868269 & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+            <!-- Post 5 -->
+<div class="blog-post">
+    <a href="Posts/F.E.A.R. Complete Pack.html">
+        <img src="Images/F.E.A.R Complete Pack.jpg" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>F.E.A.R. Complete Pack - GOG Version [Portable & DLC Included]</h3>
+        </div>
+    </a>
+</div>
+            <!-- Post 6 -->
+<div class="blog-post">
+    <a href="Posts/A Way Out.html">
+        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1222700/header.jpg?t=1626878628" style="width: 100%; height: auto;" alt="Blog Post Image">
+        <div class="post-content">
+            <h3>A Way Out - No Denuvo [Portable V1.2.0.2 & Build 13095794]</h3>
+        </div>
+    </a>
+</div>
+    <!-- ... up to Blog Post 6 -->	
+	
+</div>
+
+    <!-- Footer -->
+    <footer>
         <div class="container">
-            <p>&copy; 2024 DigitalZone ~ Games & News. All rights reserved.</p>
+            <p>&copy; 2024 Your Blog. All rights reserved.</p>
         </div>
     </footer>
 
-    <div class="discord-widget-container">
-        <iframe src="https://discord.com/widget?id=1149479236302802987&theme=dark" width="350" height="500" allowtransparency="false" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <a href="https://discord.gg/F7juJ4RryJ" target="_blank" rel="noopener noreferrer">          
-        </a>
-    </div>
-
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        if (window.innerWidth <= 480) {
-            var discordWidget = document.querySelector('.discord-widget-container');
-            if (discordWidget) {
-                discordWidget.style.display = 'none';
-            }
+function search() {
+    var searchInputValue = document.getElementById("searchInput").value.toLowerCase();
+    var blogPosts = document.querySelectorAll(".blog-post");
+
+    blogPosts.forEach(function(post) {
+        var postTitle = post.querySelector("h3").textContent.toLowerCase();
+
+        if (postTitle.includes(searchInputValue)) {
+            post.style.display = "block";  // Mostra il post se il titolo contiene la ricerca
+        } else {
+            post.style.display = "none";  // Nascondi il post se il titolo non contiene la ricerca
         }
     });
+}
+
+// Aggiungi l'ascoltatore dell'evento "keydown" alla barra di ricerca
+document.getElementById("searchInput").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        // Se il tasto premuto è "Enter", avvia la ricerca
+        search();
+    }
+});
 </script>
 
 </body>
