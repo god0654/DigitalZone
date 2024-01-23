@@ -240,20 +240,12 @@ footer {
 @media screen and (max-width: 480px) {
     .search-bar {
         display: block;
-        position: relative; /* Modifica la posizione se necessario /
-        top: auto;
-        right: auto;
-        left: auto;
-        z-index: 1; / Imposta un valore maggiore per garantire la visibilità /
+        position: relative;
+        z-index: 1;
     }
 
-    .search-bar input {
-        padding: 5px; / Regola la dimensione del padding o altre proprietà per rendere più piccolo il campo di input /
-        font-size: 0.8em; / Riduci la dimensione del carattere per rendere più piccolo il testo di input /
-    }
-
-    .search-bar button {
-        padding: 5px 8px; / Regola la dimensione del padding o altre proprietà per rendere più piccolo il pulsante /
-        font-size: 0.8em; / Riduci la dimensione del carattere per rendere più piccolo il testo del pulsante */
+    .search-bar input, .search-bar button {
+        padding: 5px;
+        font-size: 0.8em;
     }
 }
