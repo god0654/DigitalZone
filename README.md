@@ -5,5 +5,5 @@ Images (Adding alternative images for content),
 Posts (Adding content),
 index.html (𝐃𝐢𝐠𝐢𝐭𝐚𝐥𝐙𝐨𝐧𝐞),
 Styles.css (Style dedicated to index.html),
-Disqus system. (Including comments and reactions),
-FeetchRSS. (To keep track of new content).
+Disqus system (Including comments and reactions),
+FeetchRSS (To keep track of new content).
