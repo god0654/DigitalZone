@@ -71,20 +71,13 @@ header nav ul li a:hover {
     }
 }
 
-:root {
-  --scrollbar_background_color: #270343; /* Colore dello sfondo della barra di scorrimento */
-  --scrollbar_thumb_color: #5a0fbc; /* Colore del cursore della barra di scorrimento */
-  --body_color: #ffffff; /* Colore del testo della pagina e sfondo del corpo */
-}
 
 /* Apply dark mode style to the body and html */
 body, html {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: var(--scrollbar_background_color); /* Utilizza il colore della barra di scorrimento per lo sfondo del corpo */
+    background-color: #212530; /* Dark background for body */
     height: 100%; /* Full height */
-    color: var(--body_color); /* Utilizza il colore del testo della pagina (se definito) */
-    /* Altri stili per il corpo della pagina */
 }
 
 /* Style the header */
@@ -263,22 +256,4 @@ footer {
         padding: 3px 6px; /* Regola la dimensione del padding o altre proprietà per rendere più piccolo il pulsante */
         font-size: 0.7em; /* Riduci la dimensione del carattere per rendere più piccolo il testo del pulsante */
     }
-}
-
-::-webkit-scrollbar {
-  width: 12px; /* Regola la larghezza della barra di scorrimento */
-}
-
-::-webkit-scrollbar-track {
-  background-color: #270343; /* Colore dello sfondo della barra di scorrimento */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #5a0fbc; /* Colore del cursore della barra di scorrimento */
-  border-radius: 6px; /* Regola la forma del cursore della barra di scorrimento */
-}
-
-:root {
-  --scrollbar_foreground_color: #ff0000; /* Sostituisci con il colore desiderato per il cursore */
-  --body_color: #ffffff; /* Sostituisci con il colore desiderato per lo sfondo della barra di scorrimento */
 }
