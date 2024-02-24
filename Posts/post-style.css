@@ -159,3 +159,14 @@ body, html {
   --scrollbar_foreground_color: #ff0000; /* Sostituisci con il colore desiderato per il cursore */
   --body_color: #ffffff; /* Sostituisci con il colore desiderato per lo sfondo della barra di scorrimento */
 }
+
+#disqus_thread a {
+    color: #3366cc; /* Cambia il colore del testo del link */
+    text-decoration: underline; /* Aggiunge un sottolineato ai link */
+}
+
+#disqus_thread {
+    width: 220%; /* o qualsiasi percentuale desiderata */
+    margin-left: -60%; /* Imposta un margine sinistro negativo del 10% */
+    margin-right: auto;
+}
