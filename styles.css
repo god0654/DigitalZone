@@ -9,14 +9,21 @@
 /* Header Styles */
 header {
     background-color: #6c48e2;
-    padding: 10px 20px;
+    padding: 5px 0; /* Reduced padding for a smaller header */
+    height: 60px; /* Adjusted height for the header */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
-    display: flex; /* Enable flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+header a img {
+    width: auto;
+    height: 61px; /* Adjust the height as needed */
+    margin-right: 20px; /* Add margin to separate the banner from other header content */
+    vertical-align: middle; /* Align the image vertically in the middle */
 }
 
 .header-content {
@@ -25,14 +32,40 @@ header {
     align-items: center;
 }
 
-header h1 {
-    margin: 0 15px; /* Add horizontal margin for spacing */
-    font-size: 1.6em;
+header nav {
+    display: flex;
+    margin-left: auto; /* Push the navigation to the right */
 }
+
+
+/* Header Styles */
+header {
+    background-color: #6c48e2;
+    padding: 5px 0; /* Reduced padding for a smaller header */
+    height: 60px; /* Adjusted height for the header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 header nav {
     display: flex;
+    margin-left: auto; /* Push the navigation to the right */
 }
+
+
+
 
 header nav ul {
     list-style: none;
