@@ -1,0 +1,172 @@
+/* https://cdn.jsdelivr.net/gh/god0654/DigitalZone@main/Posts/post-style.css */
+
+body {
+    background-color: #212530;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6c48e2;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+.content-container {
+    margin-top: 80px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #6c48e2;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.download-button:hover {
+    transform: translateY(-3px);
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #6c48e2;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    margin-left: auto; /* Aggiunto per centrare il pulsante */
+    margin-right: auto; /* Aggiunto per centrare il pulsante */
+}
+
+.header-container {
+    text-align: center; /* Aggiunto per centrare il contenuto orizzontalmente */
+}
+
+.back-button:hover {
+    transform: translateY(-3px);
+}
+
+.additional-text a {
+    display: inline-block;
+    padding: 15px;
+    background-color: #6c48e2;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.additional-text a:hover {
+    transform: translateY(-3px);
+    color: #ddd;
+}
+
+:root {
+    margin: -3px; /* Sposta l'elemento di 3 pixel in tutte le direzioni */
+}
+
+
+:root {
+  --scrollbar_background_color: #270343; /* Colore dello sfondo della barra di scorrimento */
+  --scrollbar_thumb_color: #5a0fbc; /* Colore del cursore della barra di scorrimento */
+  --body_color: #ffffff; /* Colore del testo della pagina e sfondo del corpo */
+}
+
+/* Apply dark mode style to the body and html */
+body, html {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: var(--scrollbar_background_color); /* Utilizza il colore della barra di scorrimento per lo sfondo del corpo */
+    height: 100%; /* Full height */
+    color: var(--body_color); /* Utilizza il colore del testo della pagina (se definito) */
+    /* Altri stili per il corpo della pagina */
+
+::-webkit-scrollbar {
+  width: 12px; /* Regola la larghezza della barra di scorrimento */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #270343; /* Colore dello sfondo della barra di scorrimento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5a0fbc; /* Colore del cursore della barra di scorrimento */
+  border-radius: 6px; /* Regola la forma del cursore della barra di scorrimento */
+}
+
+:root {
+  --scrollbar_foreground_color: #ff0000; /* Sostituisci con il colore desiderato per il cursore */
+  --body_color: #ffffff; /* Sostituisci con il colore desiderato per lo sfondo della barra di scorrimento */
+}
+
+#disqus_thread a {
+    color: #3366cc; /* Cambia il colore del testo del link */
+    text-decoration: underline; /* Aggiunge un sottolineato ai link */
+}
+
+#disqus_thread {
+    width: 220%; /* o qualsiasi percentuale desiderata */
+    margin-left: -60%; /* Imposta un margine sinistro negativo del 10% */
+    margin-right: auto;
+}
