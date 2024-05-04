@@ -1,3 +1,4 @@
+/* https://cdn.jsdelivr.net/gh/god0654/DigitalZone@main/Assets/ads.js */
 
         document.addEventListener("DOMContentLoaded", function() {
             // Create top ad container
