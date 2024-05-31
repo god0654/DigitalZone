@@ -1,5 +1,27 @@
 plugins:
   - jekyll-feed
-title: Dzhavat Ushev Blog
-description: Welcome to my blog
-author: Dzhavat Ushev
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+<channel>
+<title>⎝⎝✧GͥOͣDͫ✧⎠⎠</title>
+<description>𝐃𝐢𝐠𝐢𝐭𝐚𝐥𝐙𝐨𝐧𝐞 ~ 𝐆𝐚𝐦𝐞𝐬 & 𝐍𝐞𝐰𝐬</description>
+<pubDate>Fri, 31 May 2024 11:39:23 +0000</pubDate>
+<link>https://god0654.github.io/DigitalZone/index.html</link>
+<atom:link href="http://fetchrss.com/rss/65b1a5c128ea3317be5cf07265b1a59179dfa6538b393802.xml" rel="self" type="application/rss+xml"/>
+<generator>https://fetchrss.com</generator>
+<image>
+<link>https://god0654.github.io/DigitalZone/index.html</link>
+<url>https://www.google.com/s2/favicons?domain=https://god0654.github.io</url>
+<title>⎝⎝✧GͥOͣDͫ✧⎠⎠</title>
+</image>
+<item>
+<title>Northgard: Garm Clan of the Hounds - The Viking Age Edition [Portable V3.5.4.38172 + Build 14546028 & DLCs Included]</title>
+<link>https://god0654.github.io/DigitalZone/Posts/Northgard.html</link>
+<description>
+<![CDATA[ <img src="https://god0654.github.io/DigitalZone/Images/1Northgard Garm Clan of the Hounds - The Viking Age Edition.webp" /><br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="https://fetchrss.com" target="_blank">FetchRSS</a>)</span> ]]>
+</description>
+<pubDate>Fri, 31 May 2024 11:39:23 +0000</pubDate>
+<media:content url="https://god0654.github.io/DigitalZone/Images/1Northgard Garm Clan of the Hounds - The Viking Age Edition.webp" medium="image"/>
+<guid isPermaLink="false">https://god0654.github.io/DigitalZone/Posts/Northgard.html</guid>
+</item>
+</channel>
+</rss>
