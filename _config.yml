@@ -1,0 +1,5 @@
+plugins:
+  - jekyll-feed
+title: Dzhavat Ushev Blog
+description: Welcome to my blog
+author: Dzhavat Ushev
